@@ -13,7 +13,7 @@
 
         computed: {
             basePath() {
-                return Nova.config.base;
+                return '/'+Nova.config.base;
             }
         },
 
